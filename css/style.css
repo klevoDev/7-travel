@@ -31,12 +31,19 @@ body {
 
 
 .page__move {
+    background-color: #E9E9E9;
+
     padding: 30px 0;
-    background: #E9E9E9;
 }
 
 .page__together {
     padding: 39px 0 47px;
+}
+
+.page__knock {
+    background-color: #E9E9E9;
+
+    padding: 29px 0 35px;
 }
 
 
@@ -50,7 +57,7 @@ body {
     letter-spacing: 0.15em;
     text-transform: uppercase;
 
-    /*пришлось добавить, не понял почему не встал заголовок, там идеальная центровка + subheading*/
+    /* пришлось добавить, не понял почему не встал заголовок, там идеальная центровка */
     margin-left: 7px;
 
     margin-bottom: 11px;
@@ -85,5 +92,33 @@ body {
 }
 
 .together__image {
+    max-width: 100%;
+}
+
+
+
+.knock {}
+
+.knock__container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.knock__subheading {
+    margin-bottom: 19px;
+}
+
+.knock__text {
+    line-height: 160%;
+    text-align: justify;
+
+    margin-bottom: 16px;
+}
+
+.knock__wrap-image {
+    text-align: center;
+}
+
+.knock__image {
     max-width: 100%;
 }
