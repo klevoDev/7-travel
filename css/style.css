@@ -5,11 +5,11 @@
 
 .wrapper {}
 
+
 body {
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
-.page {}
 
 .container {
     max-width: 530px;
@@ -40,6 +40,13 @@ body {
     color: #2C2C2C;
 }
 
+.link {
+    font-family: 'Noto Serif', sans-serif;
+    transition: all 0.3s ease 0s;
+    color: #1E67D5;
+}
+
+.page {}
 
 .page__move {
     background-color: #E9E9E9;
@@ -82,7 +89,6 @@ body {
 .move__text {}
 
 
-
 .together {}
 
 .together__container {
@@ -115,6 +121,7 @@ body {
 
 .knock {}
 
+/*тут решил дублировать код для контейнера, показалось норм)*/
 .knock__container {
     max-width: 700px;
     margin: 0 auto;
@@ -190,14 +197,47 @@ body {
     color: #1D0639;
 }
 
-.road__link-style {
+.road__wrap-link {
     margin-left: 5px;
-    font-family: 'Noto Serif', sans-serif;
+
     font-size: 17px;
     line-height: 110%;
     text-align: center;
 }
 
 .road__link:hover {
+    color: #FFE600;
+}
+
+
+
+.footer {
+    background-color: #E9E9E9;
+
+    padding: 35px 0 72px;
+}
+
+.footer__title {
+    line-height: 150%;
+
+    margin-bottom: 19px;
+}
+
+
+.footer__list {
+    font-size: 17px;
+    line-height: 110%;
+    text-align: center;
+}
+
+.footer__item:last-child {
+    margin-bottom: 0;
+}
+
+.footer__item {
+    margin-bottom: 18px;
+}
+
+.footer__link:hover {
     color: #FFE600;
 }
