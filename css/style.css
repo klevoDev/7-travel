@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
 
 
 .wrapper {}
@@ -23,10 +24,20 @@ body {
 }
 
 .subheading {
+    font-weight: 700;
     font-size: 30px;
     line-height: 150%;
     text-align: center;
     letter-spacing: 0.15em;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 0.15em;
+    color: #2C2C2C;
 }
 
 
@@ -46,10 +57,15 @@ body {
     padding: 29px 0 35px;
 }
 
+.page__road {
+    padding: 38px 0 59px;
+}
+
 
 .move {}
 
 .move__heading {
+    font-weight: 700;
     font-size: 38px;
     line-height: 130%;
 
@@ -121,4 +137,67 @@ body {
 
 .knock__image {
     max-width: 100%;
+}
+
+
+
+
+.road {}
+
+.road__subheading {
+    line-height: 140%;
+
+    margin-bottom: 5px;
+}
+
+.road__text {
+    color: #1D0639;
+
+    margin-bottom: 33px;
+}
+
+.road__border {
+    background: #FFA7A7;
+    border-radius: 10px;
+    box-shadow: 4px 4px 15px #FFA7A7;
+
+    max-width: 346px;
+    margin: 0 auto;
+    padding: 25px 45px 32px 39px;
+}
+
+.road__label {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+
+    margin-left: 8px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.road__title {
+    margin-left: 10px;
+    margin-bottom: 18px;
+}
+
+.road__desc {
+
+    margin-bottom: 48px;
+    color: #1D0639;
+}
+
+.road__link-style {
+    margin-left: 5px;
+    font-family: 'Noto Serif', sans-serif;
+    font-size: 17px;
+    line-height: 110%;
+    text-align: center;
+}
+
+.road__link:hover {
+    color: #FFE600;
 }
