@@ -46,6 +46,7 @@ body {
     color: #1E67D5;
 }
 
+
 .page {}
 
 .page__move {
@@ -118,10 +119,8 @@ body {
 }
 
 
-
 .knock {}
 
-/*тут решил дублировать код для контейнера, показалось норм)*/
 .knock__container {
     max-width: 700px;
     margin: 0 auto;
@@ -147,12 +146,11 @@ body {
 }
 
 
-
-
 .road {}
 
 .road__subheading {
     line-height: 140%;
+    margin-left: 4px;
 
     margin-bottom: 5px;
 }
@@ -188,13 +186,14 @@ body {
 
 .road__title {
     margin-left: 10px;
+
     margin-bottom: 18px;
 }
 
 .road__desc {
+    color: #1D0639;
 
     margin-bottom: 48px;
-    color: #1D0639;
 }
 
 .road__wrap-link {
