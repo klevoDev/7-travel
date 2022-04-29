@@ -16,12 +16,24 @@ body {
     margin: 0 auto;
 }
 
+.case {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
 .text {
     font-family: 'Source Serif Pro', Times;
     font-size: 15px;
     line-height: 145%;
     text-align: center;
 }
+
+/* .info {
+    font-family: 'Source Serif Pro', Times;
+    font-size: 15px;
+    line-height: 160%;
+    text-align: justify;
+} */
 
 .subheading {
     font-weight: 700;
@@ -41,10 +53,21 @@ body {
 }
 
 .link {
+    display: inline-block;
+
     font-family: 'Noto Serif', sans-serif;
-    transition: all 0.3s ease 0s;
+
+    font-size: 17px;
+    line-height: 110%;
     color: #1E67D5;
+
+    transition: all 0.3s ease 0s;
 }
+
+.link:hover {
+    color: #FFE600;
+}
+
 
 
 .page {}
@@ -70,6 +93,7 @@ body {
 }
 
 
+
 .move {}
 
 .move__heading {
@@ -81,7 +105,6 @@ body {
     letter-spacing: 0.15em;
     text-transform: uppercase;
 
-    /* пришлось добавить, не понял почему не встал заголовок, там идеальная центровка */
     margin-left: 7px;
 
     margin-bottom: 11px;
@@ -90,12 +113,8 @@ body {
 .move__text {}
 
 
-.together {}
 
-.together__container {
-    max-width: 700px;
-    margin: 0 auto;
-}
+.together {}
 
 .together__subheading {
     margin-left: 5px;
@@ -107,7 +126,7 @@ body {
     line-height: 160%;
     text-align: justify;
 
-    margin-bottom: 35px;
+    margin-bottom: 33px;
 }
 
 .together__wrap-image {
@@ -119,12 +138,8 @@ body {
 }
 
 
-.knock {}
 
-.knock__container {
-    max-width: 700px;
-    margin: 0 auto;
-}
+.knock {}
 
 .knock__subheading {
     margin-bottom: 19px;
@@ -146,6 +161,7 @@ body {
 }
 
 
+
 .road {}
 
 .road__subheading {
@@ -162,13 +178,15 @@ body {
 }
 
 .road__border {
-    background: #FFA7A7;
+    background-color: #FFA7A7;
+
     border-radius: 10px;
     box-shadow: 4px 4px 15px #FFA7A7;
 
     max-width: 346px;
     margin: 0 auto;
-    padding: 25px 45px 32px 39px;
+    padding: 22px 45px 32px 39px;
+
 }
 
 .road__label {
@@ -181,7 +199,7 @@ body {
     letter-spacing: 0.2em;
     text-transform: uppercase;
 
-    color: #FFFFFF;
+    color: #fff;
 }
 
 .road__title {
@@ -199,14 +217,12 @@ body {
 .road__wrap-link {
     margin-left: 5px;
 
-    font-size: 17px;
-    line-height: 110%;
     text-align: center;
 }
 
-.road__link:hover {
-    color: #FFE600;
-}
+.road__link {}
+
+
 
 
 
@@ -229,14 +245,10 @@ body {
     text-align: center;
 }
 
+.footer__item {
+    margin-bottom: 21px;
+}
+
 .footer__item:last-child {
     margin-bottom: 0;
-}
-
-.footer__item {
-    margin-bottom: 18px;
-}
-
-.footer__link:hover {
-    color: #FFE600;
 }
